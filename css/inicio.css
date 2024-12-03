@@ -1,0 +1,20 @@
+.inicio {
+  background-image: url(../img/banner-inicial.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 50px;
+}
+.inicio img {
+  margin: 0 auto;
+}
+.inicio h1 {
+  color: white;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.9);
+  margin-top: 300px;
+  margin-bottom: 100px;
+}
+.inicio .botao {
+  margin-bottom: 120px;
+}

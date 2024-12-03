@@ -1,0 +1,45 @@
+.beneficios {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 2fr;
+  gap: 40px;
+  margin-bottom: 200px;
+}
+.beneficios h2 {
+  margin-left: 44px;
+}
+.beneficio {
+  background-image: url("../img/quadrado-beneficio.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  border-radius: 30px;
+}
+
+.beneficio h3 {
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+}
+@media (max-width: 1440px) {
+  .beneficios {
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 80px;
+  }
+  .be-1 {
+    grid-column: -1/1;
+  }
+}
+@media (max-width: 1000px) {
+  .beneficios {
+    grid-template-columns: 1fr;
+  }
+}

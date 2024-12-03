@@ -1,0 +1,59 @@
+.font-g-b {
+  font-family: "Kanit";
+  font-weight: 800;
+  font-size: 3.75rem;
+  line-height: 110%;
+}
+.font-g-l {
+  font-family: "Kanit";
+  font-weight: 300;
+  font-size: 3rem;
+  color: #00001c;
+  line-height: 100%;
+}
+.font-m-m {
+  font-family: "Kanit";
+  font-weight: 400;
+  font-size: 1.875rem;
+}
+.font-m-b {
+  font-family: "Kanit";
+  font-weight: 800;
+  font-size: 1.875rem;
+}
+.font-m-l {
+  font-family: "Kanit";
+  font-weight: 300;
+  font-size: 1.875rem;
+}
+.font-p-l {
+  font-family: "Kanit";
+  font-weight: 300;
+  font-size: 1.125rem;
+}
+.font-p-s {
+  font-family: "Kanit";
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+:root {
+  --azul: #00001c;
+  --branco: #ffffff;
+}
+@media (max-width: 400px) {
+  .font-g-b {
+    font-size: 2.5rem;
+  }
+  .font-g-l {
+    font-size: 2rem;
+  }
+}
+
+.branco {
+  color: var(--branco);
+}
+
+.branco {
+  color: var(--branco);
+}
